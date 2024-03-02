@@ -1,0 +1,86 @@
+{
+    "wishlist": [
+      {
+        "id": 1,
+        "photo": "images/photo1.png",
+        "productCode": "Abc123",
+        "name": "Product Name 1",
+        "stock": "Kyiv",
+        "qty": 2,
+        "price": "$40.00",
+        "productImage": ""
+      },
+      {
+        "id": 2,
+        "photo": "images/photo1.png",
+        "productCode": "Bcd456",
+        "name": "Product Name 2",
+        "stock": "Washington",
+        "qty": 3,
+        "price": "$50.00",
+        "productImage": ""
+      },
+      {
+        "id": 3,
+        "photo": "images/photo1.png",
+        "productCode": "Cde123",
+        "name": "Product Name 3",
+        "stock": "NY",
+        "qty": 6,
+        "price": "$30.00",
+        "productImage": ""
+      },
+      {
+        "id": 4,
+        "photo": "images/photo1.png",
+        "productCode": "Abcabc123",
+        "name": "Product Name 4",
+        "stock": "Kyiv",
+        "qty": 12,
+        "price": "$45.00",
+        "productImage": ""
+      },
+      {
+        "id": 5,
+        "photo": "images/photo1.png",
+        "productCode": "Efg456654",
+        "name": "Product Name 5",
+        "stock": "Kyiv",
+        "qty": 5,
+        "price": "$20.00",
+        "productImage": ""
+      },
+      {
+        "id": 11,
+        "photo": "images/photo1.png",
+        "productCode": "Abc123abc",
+        "name": "Product Name 6",
+        "stock": "Kyiv",
+        "qty": 2,
+        "price": "$40.00",
+        "productImage": ""
+      },
+      {
+        "id": 12,
+        "photo": "images/photo1.png",
+        "productCode": "Bcd456654",
+        "name": "Product Name 7",
+        "stock": "Washington",
+        "qty": 3,
+        "price": "$50.00",
+        "productImage": ""
+      },
+      {
+        "id": 13,
+        "photo": "images/photo1.png",
+        "productCode": "Cde123321",
+        "name": "Product Name 8",
+        "stock": "NY",
+        "qty": 6,
+        "price": "$30.00",
+        "productImage": ""
+      }
+      
+    ]
+  }
+  

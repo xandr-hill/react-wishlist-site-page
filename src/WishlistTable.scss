@@ -1,0 +1,109 @@
+@import 'index.scss';
+
+// Основні стилі
+.table-container {
+  max-height: 65vh;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-area {
+  border-collapse: separate !important;
+  border-spacing: 0 $tableBorderSpacing !important;
+  overflow-y: auto;
+}
+
+.table-body {
+  overflow-y: auto;
+}
+
+.table-head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: $primaryBackgroundColor;
+}
+
+.table-head > * {
+  position: sticky;
+  flex: 1;
+  text-align: center;
+}
+
+.table-row {
+  background: $primaryColor;
+}
+
+.table-cell-photo {
+  width: $tableCellPhotoWidth;
+  height: $tableCellPhotoHeight;
+}
+
+.table-cell-code,
+.table-cell-stock,
+.table-cell-qty,
+.table-cell-price,
+.add-to-cart-btn,
+.add-to-cart-btn-outside,
+.add-product-btn,
+.back-btn,
+.new-category-btn,
+.category-btn {
+  width: 100%;
+  height: auto;
+}
+
+// Медіазапит для планшетів та деяких десктопів
+@media only screen and (min-width: 768px) {
+  .table-cell-photo {
+    width: $tableCellPhotoWidth;
+    height: $tableCellPhotoHeight;
+  }
+
+  .table-cell-code,
+  .table-cell-stock,
+  .table-cell-qty,
+  .table-cell-price,
+  .add-to-cart-btn,
+  .add-to-cart-btn-outside,
+  .add-product-btn,
+  .back-btn,
+  .new-category-btn,
+  .category-btn {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Медіазапит для невеликих екранів (наприклад, мобільних пристроїв)
+@media only screen and (max-width: 767px) {
+  .table-area,
+  .breadcrumbs,
+  .table-head,
+  .table-body,
+  .table-row {
+    width: 100%;
+  }
+
+  .table-cell-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .table-cell-code,
+  .table-cell-stock,
+  .table-cell-qty,
+  .table-cell-price,
+  .add-to-cart-btn,
+  .add-to-cart-btn-outside,
+  .add-product-btn,
+  .back-btn,
+  .new-category-btn,
+  .category-btn {
+    width: 100%;
+    height: auto;
+  }
+}

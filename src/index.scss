@@ -1,0 +1,122 @@
+// Змінні
+:export {
+    // Кольори
+    primaryBackgroundColor: #F6F7F9;
+    primaryColor: #FFFFFF;
+    textColor: #303031;
+  
+    // Розміри
+    tableBorderSpacing: 10px;
+    tableCellPhotoWidth: 100px;
+    tableCellPhotoHeight: 100px;
+    fontSize: 16px;
+}
+
+$primaryBackgroundColor: #F6F7F9;
+$fontFamily: 'Roboto', sans-serif;
+$primaryColor: #FFFFFF;
+$buttonActiveColor: #B2BAC7;
+$textColor: #303031;
+$tableBorderSpacing: 10px;
+$tableCellPhotoWidth: 100px;
+$tableCellPhotoHeight: 100px;
+$fontSize: 16px;
+
+// Основні стилі
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: $primaryBackgroundColor;
+  font-family: $fontFamily;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: $textColor;
+}
+
+button {
+  text-transform: none !important;
+}
+
+.button-wide {
+  width: 300px;
+}
+
+.button-middle {
+  width: 200px;
+}
+
+.button-main {
+  background-color: $primaryColor;
+  color: $textColor;
+}
+
+.button-main:active {
+  background-color: $buttonActiveColor;
+}
+
+.content-wrapper {
+  display: table;
+  width: 90vw;
+  background-color: $primaryBackgroundColor;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.align-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-align, .right-align {
+  width: fit-content;
+}
+
+.right-align {
+  margin-left: auto;
+}
+
+.breadcrumbs {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.wishlist-header {
+  margin-bottom: 20px;
+}
+
+// Медіазапит для невеликих екранів (наприклад, мобільних пристроїв)
+@media only screen and (max-width: 767px) {
+  .table-area,
+  .breadcrumbs,
+  .table-head,
+  .table-body,
+  .table-row {
+    width: 100%;
+  }
+
+  .table-cell-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .table-cell-code,
+  .table-cell-stock,
+  .table-cell-qty,
+  .table-cell-price,
+  .add-to-cart-btn,
+  .add-to-cart-btn-outside,
+  .add-product-btn,
+  .back-btn,
+  .new-category-btn,
+  .category-btn {
+    width: 100%;
+    height: auto;
+  }
+}
